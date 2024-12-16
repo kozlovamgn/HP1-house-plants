@@ -42,5 +42,6 @@ public final class MainClass {
         plantService.printWateringInfo();
 
         plantService.save();
+
     }
 }
