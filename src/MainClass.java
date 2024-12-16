@@ -20,7 +20,6 @@ public final class MainClass {
                 LocalDate.now().minusDays(3),
                 10
         ));
-
         for (int i = 0; i < 10; i++) {
             plantService.addPlant(new PlantEntity(
                     "Tulipán na prodej " + i,
